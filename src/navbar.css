@@ -1,0 +1,200 @@
+/* Base styles */
+.nav {
+  background-color: rgb(111, 50, 38) !important;
+  font-weight: 500;
+  /* position: fixed !important; */
+  /* height: 8% ; */
+  z-index: 10;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link,
+.dropdown-toggle {
+  color: rgb(255, 255, 255) !important;
+  margin: 0 15px;
+}
+
+.nav-link:hover,
+.drop:hover {
+  color: rgb(255, 192, 4) !important;
+}
+
+.nav-link.active,
+.dropdown-item.active {
+  color: rgb(255, 192, 4) !important;
+}
+
+.clr .dropdown-toggle {
+  color: rgb(0, 0, 0) !important;
+}
+
+#basic-nav-dropdown {
+  margin-left: 30% !important;
+}
+
+.nav {
+  background-color: #f8f9fa;
+}
+
+.clr {
+  color: #000;
+}
+
+.clr.active {
+  font-weight: bold;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+ 
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navlinks {
+  margin-left: -45% !important;
+}
+
+ 
+
+.fa-solid {
+  color: white;
+}
+.navbar-toggler:focus {
+   
+  box-shadow: none !important;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your styles here */
+  .navbar-brand {
+     width: 30%;
+  }
+  .navlinks {
+    margin-left: 0 !important;
+}
+.Drop-Down{
+   margin: auto;
+}
+.name-span{
+  margin-right: 10%;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your styles here */
+  .navbar-brand {
+    width: 30%;
+ }
+ .navlinks {
+  margin-left: 0 !important;
+}
+.Drop-Down{
+   margin: auto;
+}
+.name-span{
+  margin-right: 10%;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your styles here */
+  .navbar-brand {
+    width: 30%;
+ }
+ .navlinks {
+  margin-left: 0 !important;
+}
+.Drop-Down{
+   margin: auto;
+}
+.name-span{
+  margin-right: 10%;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your styles here */
+  .navlinks {
+    margin-left: 0 !important;
+  }
+  .navbar-brand {
+    width: 30%;
+ }
+ 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* Your styles here */
+  .navlinks {
+    margin-left: 0 !important;
+  }
+  .navbar-brand {
+    width: 15%;
+ }
+ .navbar-collapse {
+  margin-left:18%;
+}
+.name-span{
+  margin-right: 10%;
+}
+.account{
+  margin-left: 90px;
+}
+ 
+}
+
+@media (min-width: 1400px) {
+  /* Your styles here */
+  .navlinks {
+    margin-left: 0 !important;
+  }
+  .navbar-brand {
+    width: 15%;
+ }
+ .navbar-collapse {
+  margin-left: 25%;
+}
+.name-span{
+  margin-right: 15%;
+}
+.Drop-Down{
+  margin-left: 5%;
+}
+.account{
+  margin-left: 90px;
+}
+}

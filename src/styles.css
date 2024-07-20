@@ -1,0 +1,545 @@
+/* styles.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+   
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.carousel-control-next-icon {
+  background-image: none !important;
+}
+.carousel-control-prev-icon {
+  background-image:  none !important;
+}
+.main-content {
+  flex: 1;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+/* styles.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+ 
+/* In your CSS file */
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+/* Ensure the HTML, body, and root element take the full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Set the home container to flex and take the full height */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make sure the content takes up all the available space */
+.content {
+  flex: 1;
+}
+
+/* Optionally, set padding and margin for better spacing */
+.content h1,
+.content h2 {
+  margin: 0;
+  padding: 20px;
+}
+.foot {
+  color: white;
+  position: sticky;
+  padding: 0;
+}
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.loading-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.loading-container p {
+  margin-top: 10px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #d56a34 !important;
+  color: white !important;
+}
+.mala {
+  margin-top: 20px;
+  background-color: #d56a34;
+}
+
+.sansk {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.sans {
+  margin-bottom: 20px;
+}
+
+.sans1 {
+  font-size: 18px;
+  text-align: justify;
+  padding: 10px;
+  margin-top: 1%;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.loading-container img {
+  width: 100px; /* Adjust size as needed */
+}
+
+.welcome-message {
+  margin-top: 20px;
+  font-size: 64px;
+  font-family: 'Brush Script MT', cursive; /* Cursive font family */
+  font-weight: bold;
+  background: linear-gradient(45deg,  rgb(255, 192, 4),rgb(111, 50, 38), #d56a34);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation: fadeIn 1s forwards; /* Apply animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Slide up effect */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ff6347; /* Initial bright color */
+  }
+  100% {
+    color: #ff4500; /* Alternate color */
+  }
+}
+
+ 
+@media (max-width: 768px) {
+  .sansk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sans{
+    width: 350px !important;
+    margin-bottom: 15px;
+  }
+}
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.loading-container img {
+  width: 300px; /* Adjust the size as needed */
+  height: 300px; /* Adjust the size as needed */
+}
+
+.loading-container p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333; /* Adjust the color as needed */
+}
+
+
+
+/* language page start */
+.langbanner{
+  background-image: url('langbanner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.langbanner h1{
+  font-size: 80px;
+}
+.mala{
+   margin-left: 4%;
+   margin-right: 4%;
+   margin-bottom: 4%;
+}
+.accordion-button{
+font-size: 2rem !important;
+ 
+}
+.accordion-item{
+  border: 2px solid black !important;
+}
+.language-heading{
+  padding: 3%;
+  
+}
+.language-heading h1{
+  text-decoration: underline;
+}
+
+/* language page end */
+
+
+/* home page starts */
+/* about section start */
+.a-section{
+  height: 35vh;
+  display: flex;
+flex-direction: row;
+background-color: white;
+margin: 2%;
+}
+.a1{
+  display: flex;
+flex-direction:  column;
+margin: 2%;
+justify-content:center;
+text-align: right;
+width: 50%;
+}
+.a2{ 
+  margin: 2%;
+  width: 50%;
+}
+.a2 img{
+  width: 100%;
+  height: 100%;
+}
+/* about section end */
+/* team section start */
+.team-section{
+  padding: 2%;
+  background-color: #6f3226;
+  color: white;
+
+}
+/* team section end */
+/* vision section start */
+.v-section{
+  height: 70vh;
+  display: flex;
+flex-direction: row;
+margin: 2%;
+}
+.v1{
+  margin: 2%;
+  width: 35%;
+}
+.v1 img{
+  width: 100%;
+  height: 100%;
+}
+.v2{
+  display: flex;
+  flex-direction:  column;
+  margin: 2%;
+  justify-content:center;
+  text-align: left;
+  width: 65%;
+}
+/* vision section end */
+/*  mission section start*/
+.m-section{
+  height: 70vh;
+  display: flex;
+flex-direction: row;
+margin: 2%;
+}
+.m1{
+  display: flex;
+  flex-direction:  column;
+  margin: 2%;
+  justify-content:center;
+  text-align: right;
+  width: 65%;
+}
+.m2{
+  margin: 2%;
+  width: 35%;
+}
+.m2 img{
+  width: 100%;
+  height: 100%;
+}
+/* mission section end  */
+
+
+/* home page ends */
+
+@media (min-width: 1400px) {
+  /* Styles for extra extra large devices */
+  .a1 {
+    margin: 0%;
+}
+.a2 {
+  margin: 0%;
+}
+body{
+  overflow-x: hidden;
+}
+.v-section{
+  height: 50vh;
+}
+  .v1{
+    width: 25%;
+  }
+  .v2{
+    width: 75%;
+  }
+  .m-section{
+    height: 50vh;
+  }
+  .m2{
+    width: 25%;
+  }
+  .m1{
+    width:75%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* Styles for extra large devices */
+  .a1 {
+    margin: 0%;
+}
+.a2 {
+  margin: 0%;
+}
+body{
+  overflow-x: hidden;
+}
+.v-section{
+  height: 55vh;
+}
+  .v1{
+    width: 30%;
+  }
+  .v2{
+    width: 70%;
+  }
+  .m-section{
+    height: 55vh;
+  }
+  .m2{
+    width: 30%;
+  }
+  .m1{
+    width:70%;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Styles for large devices */
+  .a1 {
+    margin: 0%;
+}
+.a2 {
+  margin: 0%;
+}
+body{
+  overflow-x: hidden;
+}
+.v-section{
+  height: 60vh;
+}
+  .v1{
+    width: 35%;
+  }
+  .v2{
+    width: 65%;
+  }
+  .m-section{
+    height: 60vh;
+  }
+  .m2{
+    width: 35%;
+  }
+  .m1{
+    width:65%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Styles for medium devices */
+  .a1 {
+    margin: 0%;
+}
+.a2 {
+  margin: 0%;
+}
+body{
+  overflow-x: hidden;
+}
+.v-section{
+  height: 80vh;
+}
+  .v1{
+    width: 50%;
+  }
+  .v2{
+    width: 50%;
+  }
+  .m-section{
+    height: 80vh;
+  }
+  .m2{
+    width: 50%;
+  }
+  .m1{
+    width:50%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Styles for small devices */
+   
+body{
+  overflow-x: hidden;
+}
+.a-section{
+  flex-direction:  column-reverse;
+  height: 60vh;
+   
+}
+.a1 {
+  width: 100%;
+  text-align: center;
+}
+.a2 {
+ width: 100%;
+}
+.v-section{
+  height: 180vh;
+  flex-direction: column;
+}
+  .v1{
+    width: 95%;
+  }
+  .v2{
+    width: 95%;
+  }
+  .m-section{
+    height: 200vh;
+    flex-direction: column-reverse;
+  }
+  .m2{
+    width: 95%;
+  }
+  .m1{
+    width:95%;
+    text-align: left;
+  }
+
+}
+@media (max-width: 576px) {
+  /* Styles for extra small devices */
+    
+body{
+  overflow-x: hidden;
+}
+.a-section{
+  flex-direction:  column-reverse;
+  height: 50vh;
+   
+}
+.a1 {
+  width: 100%;
+  text-align: center;
+}
+.a2 {
+ width: 100%;
+}
+.v-section{
+  height: 170vh;
+  flex-direction: column;
+}
+  .v1{
+    width: 95%;
+  }
+  .v2{
+    width: 95%;
+  }
+  .m-section{
+    height: 175vh;
+    flex-direction: column-reverse;
+  }
+  .m2{
+    width: 95%;
+  }
+  .m1{
+    width:95%;
+    text-align: left;
+  }
+  .langbanner h1{
+    font-size: 60px;
+  }
+}
+
+
+
+
+

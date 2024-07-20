@@ -1,0 +1,94 @@
+/* ContactsTable.css */
+
+.contacts-table-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow:  0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    animation: fadeIn 0.5s ease-in-out;
+    border: 2px solid #007bff;
+  }
+  
+  .contacts-table th, .contacts-table td {
+    padding: 12px 15px;
+    text-align: center; /* Center align the text */
+    border: 1px solid #ddd; /* Add borders to table cells */
+  }
+  
+  .contacts-table th {
+    background-color: rgb(48, 123, 189);
+    color: #fff;
+  }
+  
+  .contacts-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .contacts-table tbody tr:hover {
+    background-color: #e9e9e9;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* ContactsTable.css */
+.contacts-table-container {
+  background-color: #fff; /* Table background color */
+  padding: 20px;
+  margin: 7%;
+}
+
+.contacts-table-container table {
+  width: 100%;
+  border-collapse: collapse; /* Ensure borders don't double up */
+}
+
+.contacts-table-container th,
+.contacts-table-container td {
+  color: black;
+  font-weight: bold;
+  border-right: 1px solid black; /* Add right border to each table cell */
+  border-bottom: 1px solid black; /* Add bottom border to each table cell */
+}
+
+.contacts-table-container th:last-child,
+.contacts-table-container td:last-child {
+  border-right: none; /* Remove right border from last column */
+}
+
+
+.export-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5%;
+  display: inline-block;
+}
+
+.export-button:hover {
+  background-color: #0156b1;
+   color: white;
+}
+.buttons-container{
+  display: flex;
+  flex-direction: row;
+   gap: 1%;
+}
+ 
